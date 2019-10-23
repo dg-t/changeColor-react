@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from './myComponent';
+import ColoredBlock from './coloredBlock';
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
         {/* Edit <code>src/App.js</code> and save to reload.*/}
         Hello {this.props.MyName}
         </p>
-        <MyComponent />
+        <ColoredBlock />
         <a
           className="App-link"
           href="https://reactjs.org"
